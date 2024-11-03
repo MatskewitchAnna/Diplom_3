@@ -1,13 +1,13 @@
 import io.qameta.allure.junit4.DisplayName;
+import org.apache.commons.lang3.RandomStringUtils;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.ProfilePage;
 import user.ResponseUser;
 import user.User;
-import org.apache.commons.lang3.RandomStringUtils;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
 
 import static java.net.HttpURLConnection.HTTP_ACCEPTED;
 import static org.junit.Assert.assertTrue;
